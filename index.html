@@ -17,16 +17,15 @@
     <header class="main-head">
       <nav>
         <h1 id="logo">Nin Guang</h1>
-        <input type="checkbox" class="menu-check" />
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
         </div>
       </nav>
     </header>
@@ -47,17 +46,17 @@
         <div class="hero-images">
           <img
             class="hero-elena"
-            src="img/elena-joy.png"
+            src="./img/elena-joy.png"
             alt="picture of elena joy"
           />
           <img class="plant1 plant" src="/img/plant1.png" alt="" />
           <img class="plant2 plant" src="/img/plant2.png" alt="" />
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-image">
           <h5>MINIMAL</h5>
-          <img src="/img/about-image.png" alt="portrait-picture" />
+          <img src="./img/about-image.png" alt="portrait-picture" />
         </div>
         <div class="about-text flex">
           <h2>Nin Guang</h2>
@@ -87,16 +86,52 @@
           </div>
         </div>
       </section>
-      <section class="gallery">
+      <section class="gallery" id="gallery">
         <header class="gallery-head">
           <h2>Quality Photography</h2>
           <p>My work pictures that I took</p>
         </header>
-        <img class="gallery1" src="/img/gallery-1.jpg" alt="man in suit" />
-        <img class="gallery2" src="/img/gallery-2.jpg" alt="lady in coat" />
-        <img class="gallery3" src="/img/gallery-3.jpg" alt="lady in t-shirt" />
-        <img class="gallery4" src="/img/gallery-4.jpg" alt="lady in jacket" />
+        <img class="gallery1" src="./img/gallery-1.jpg" alt="man in suit" />
+        <img class="gallery2" src="./img/gallery-2.jpg" alt="lady in coat" />
+        <img class="gallery3" src="./img/gallery-3.jpg" alt="lady in t-shirt" />
+        <img class="gallery4" src="./img/gallery-4.jpg" alt="lady in jacket" />
+      </section>
+      <section class="contact" id="contact">
+        <div class="form-wrapper flex">
+          <h2>
+            Get in <br />
+            <span> touch.</span>
+          </h2>
+          <form>
+            <label for="email">Your Email</label>
+            <input type="email" id="email required" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="./img/contact-image.jpg" alt="elana-joy" />
       </section>
     </main>
+    <footer>
+      <h4>NIN GUANG &copy; 2020</h4>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="./img/youtube-symbol 1.svg" alt="youtube-social-media" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/twitter 1.svg" alt="twitter-social-media" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./img/instagram 1.svg" alt="instagram-social-media" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>
